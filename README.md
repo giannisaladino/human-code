@@ -5,6 +5,10 @@
         - Prendo il telefono
         - Apro Google Maps
         - Cerchiamo pizzerie nei dintorni
+            - SE è aperta:
+                - proseguo nell'ordine
+            - ALTRIMENTI:
+                - ripeti la ricerca della pizzeria
     - Scegliere una pizza dal listino
         - Scegliere la prosciutto e funghi
 
@@ -19,6 +23,15 @@
         - Comunico il mio numero di telefono
         - Comunico il mio citofono
     - Chiedo il costo della pizza
+    - Chiedo se si può pagare con la carta
+        - SE si:
+            - preparo la carta
+        - ALTRIMENTI:
+            - Controllo di avere abbastanza contanti
+                - SE si:
+                    - preparo i contanti
+                - ALTRIMENTI:
+                    - vado a prelevare
     - Saluto e ringrazio
 
  ## Aspettare la pizza
